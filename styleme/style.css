@@ -78,7 +78,7 @@ nav li a{
 
 .main{
     max-width: 1440px;
-    margin: 70px auto;
+    margin-left: 70px;
 }
 
 .teams-container{
@@ -113,6 +113,41 @@ nav li a{
     color:#727272;
 }
 
+.facts-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.facts-description{
+    
+    color: #727272;
+}
+
+.facts-card-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid red;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .card-title{
+    font-weight: 600;
+    color: #424242;
+    font-size: 1.28rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 576px) {
     header{
         padding: 20px;
@@ -125,14 +160,6 @@ nav li a{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-}
-.facts-title{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #131313;
-}
-.facts-description{
-    color: #727272;
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px){
