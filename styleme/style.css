@@ -126,6 +126,14 @@ nav li a{
         grid-template-columns: 1fr;
     }
 }
+.facts-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.facts-description{
+    color: #727272;
+}
 
 @media screen and (min-width: 576px) and (max-width: 960px){
     header{
